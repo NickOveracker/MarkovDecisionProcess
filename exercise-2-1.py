@@ -33,7 +33,7 @@ probabilities = [
 num_states  = len(rewards)
 num_actions = len(rewards[0][0])
 p = [0] * num_states
-beta = 0.8
+beta = 0.9
 
 def calc_r():
 	r = [0] * num_states
